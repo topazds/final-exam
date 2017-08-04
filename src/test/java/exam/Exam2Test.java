@@ -60,4 +60,12 @@ public class Exam2Test {
 		assertEquals(200, result);
 	}
 	
+	@Test
+	public void testA2() {
+		exam2.productASell();
+		exam2.productASell();
+		int result = exam2.processPrice();
+		assertEquals(200, result);
+	}
+	
 }
